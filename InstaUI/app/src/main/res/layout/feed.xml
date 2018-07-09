@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="379dp"
+        android:layout_height="314dp"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:src="@drawable/sam"
+        android:id="@+id/imageView2"
+        android:layout_width="75dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+    <ImageButton
+        android:src="@drawable/icon_heart"
+        android:id="@+id/imageButton"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:src="@drawable/icon_comment"
+        android:id="@+id/imageButton2"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:src="@drawable/icon_send"
+        android:id="@+id/imageButton3"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:src="drawable/icon_dots"
+        android:id="@+id/imageButton4"
+        android:layout_width="46dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="7dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="232dp"
+        android:layout_height="16dp"
+        android:text="Location"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="35dp"
+        tools:ignore="MissingConstraints" />
+</>
